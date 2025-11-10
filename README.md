@@ -9,3 +9,6 @@ docker run -p 8888:5000 flask-cat-app:papisanti
 
 
 EN EL CODIGO PONIA IMAGES Y AL LADO HACER UNA LISTA DE GIFT DE GATOS HEHE
+
+Añadimos en nuestro compose.yml
+services: web: build .ports: -"8888:5000"
